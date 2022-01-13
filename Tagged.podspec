@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
     :tag => s.version
   }
 
+  s.platform = :ios, "13.0"
   s.swift_versions = "5.1"
 
   s.source_files = "Sources", "Sources/Tagged/**/*.swift"
