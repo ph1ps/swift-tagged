@@ -22,16 +22,11 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/pointfreeco"
 
   s.source = {
-    :git => "https://github.com/pointfreeco/swift-tagged.git",
+    :git => "https://github.com/ph1ps/swift-tagged.git",
     :tag => s.version
   }
 
-  s.swift_versions = "5.0", "5.1.2"
-
-  s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.9"
-  s.tvos.deployment_target = "9.0"
-  s.watchos.deployment_target = "2.0"
+  s.swift_versions = "5.1"
 
   s.source_files = "Sources", "Sources/Tagged/**/*.swift"
 end
